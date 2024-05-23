@@ -1,5 +1,30 @@
     /* styles.css */
     
+    header {
+        background-color: #ffffff;
+        color: white;
+        text-align: right;
+        padding: 10px;
+    }
+    
+    button {
+        background-color: #1c8635;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #1c8635;
+    }
+    
+    .flag {
+        width: 30px;
+        height: 20px;
+        align-items: center;
+    }
+    
     .begin {
         font-family: Arial, sans-serif;
         margin: 0;
