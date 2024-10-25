@@ -1,44 +1,35 @@
-# Portfolio Pessoal
-# Descrição
+# Personal Portfolio
+## Description
 
-Este projeto é um site de portfólio pessoal desenvolvido utilizando HTML e CSS. O objetivo do site é exibir suas habilidades, projetos e informações de contato de forma profissional e acessível. O design é totalmente responsivo, permitindo que o site seja visualizado em diferentes dispositivos, como desktops, tablets e smartphones.
+This project is a personal portfolio website developed using HTML and CSS. The purpose of this site is to display your skills, projects, and contact information in a professional and accessible manner. The design is fully responsive, allowing the site to be viewed on various devices, such as desktops, tablets, and smartphones.
 
-O portfólio inclui seções sobre você, suas experiências profissionais, habilidades técnicas e formas de contato.
+The portfolio includes sections about yourself, your professional experience, technical skills, and contact information.
 
-# Funcionalidades
+## Features
 
-  Design Responsivo: Layout adaptável para diferentes resoluções de tela (mobile, tablet e desktop).
-  
-  Seção Sobre Mim: Um resumo sobre sua trajetória profissional e acadêmica.
-  
-  Seção de Habilidades: Listagem de suas principais competências técnicas.
-  
-  Formulário de Contato: Formulário simples para que visitantes possam entrar em contato diretamente via e-mail.
-  
-  Estilo Personalizado com CSS: Design elegante e moderno, utilizando apenas CSS para estilização.
+- **Responsive Design**: Adaptive layout for different screen resolutions (mobile, tablet, and desktop).
+- **About Me Section**: A summary of your professional and academic background.
+- **Skills Section**: Listing of your main technical competencies.
+- **Contact Form**: Simple form for visitors to contact you directly via email.
+- **Custom CSS Styling**: Elegant and modern design using only CSS for styling.
 
-# Estrutura do Projeto
+## Project Structure
 
-  index.html: Página principal do portfólio contendo a estrutura HTML.
-  
-  style.css: Arquivo de estilo para personalizar o layout e design do site.
-  
-  imagens/: Pasta contendo imagens e ícones utilizados no site (como sua foto ou logos dos projetos).
-  
-  README.md: Documentação do projeto.
+- `index.html`: Main page of the portfolio containing the HTML structure.
+- `style.css`: Style sheet to customize the layout and design of the site.
+- `images/`: Folder containing images and icons used on the site (such as your photo or project logos).
+- `README.md`: Project documentation.
 
-# Tecnologias Utilizadas
+## Technologies Used
 
-  HTML5: Estrutura do site.
+- **HTML5**: Site structure.
+- **CSS3**: Styling and responsive layout.
+- **Fonts and Icons**: Additional customization with Google Fonts.
 
-  CSS3: Estilização e layout responsivo.
-  
-  Fontes e Ícones: Personalização adicional com Google Fonts
+## Author
 
-# Autor
+Name: Lucas Blanger
 
-    Nome: Lucas Blanger
+## License
 
-Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
+This project is licensed under the MIT License - see the LICENSE file for details.
