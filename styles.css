@@ -130,6 +130,7 @@
         margin-right: 330px;
         margin-left: 110px;
         line-height: 2.6;
+        font-size: 20px;
     }
     
     .about {
@@ -263,4 +264,31 @@
         font-family: "Roboto", sans-serif;
         font-style: normal;
         font-size: 14px;
+    }
+    
+    .projects {
+        background-color: #1c8635;
+        font-family: "Roboto", sans-serif;
+        padding-bottom: 10px;
+    }
+    
+    #titleProjects {
+        background-color: #134d1f;
+        color: white;
+        text-align: justify;
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-size: 25px;
+        padding: 20px;
+    }
+    
+    h2 {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-size: 18px;
+        color: white;
+    }
+    
+    #textProjects {
+        font-family: "Roboto", sans-serif;
     }
