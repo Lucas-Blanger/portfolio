@@ -292,3 +292,19 @@
     #textProjects {
         font-family: "Roboto", sans-serif;
     }
+    
+    .conquistas {
+        font-family: "Roboto", sans-serif;
+    }
+    
+    #titleConquistas {
+        font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-size: 25px;
+        color: #1c8635;
+    }
+    
+    #textConquistas {
+        color: #135822;
+        font-size: 18px;
+    }
