@@ -54,12 +54,24 @@
     }
     
     .wolf-icon img {
-        max-width: 300px;
-        /* Ajuste o tamanho conforme necessário */
+        max-width: 60%;
         height: auto;
         display: block;
-        margin: auto 150px auto;
-        /* Centraliza verticalmente */
+        margin: auto;
+    }
+    /* Ajuste para telas menores */
+    
+    @media (max-width: 768px) {
+        .wolf-icon img {
+            max-width: 80%;
+            margin: auto;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .wolf-icon img {
+            max-width: 90%;
+        }
     }
     
     .small-text {
