@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="icon" href="assets\img\wolf.jpg" type="image/x-icon">
+    <link rel="icon" href="assets/img/wolf.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
@@ -17,8 +17,6 @@
 
 <body>
     <section class="begin">
-
-        <body>
             <div class="container">
                 <div class="intro">
                     <p class="small-text">Oi, me chamo</p>
@@ -34,148 +32,168 @@
                     <img src="assets\img\lucas.png" alt="Foto de Lucas Blanger">
                 </div>
             </div>
-            <div class="arrow">↓</div>
-        </body>
+            <div class="arrow"><i class="fas fa-arrow-down"></i></div>
     </section>
     <section>
         <div class="about">
             <h1 class="titleme">Sobre mim</h1>
-            <t class="textme">Comecei a usar o computador com 4 anos por influência do meu irmão, iniciei jogando, mas com o tempo, aos 14 anos fui apresentado a programação, aos 15 entrei ao Técnico em Informática integrado ao Ensino Médio no Instituto Federal de Educação,
+            <p class="textme">Comecei a usar o computador com 4 anos por influência do meu irmão, iniciei jogando, mas com o tempo, aos 14 anos fui apresentado a programação, aos 15 entrei ao Técnico em Informática integrado ao Ensino Médio no Instituto Federal de Educação,
                 Ciência e Tecnologia do Rio Grande do Sul - Campus Erechim. Atualmente, sou graduando em Ciência da Computação pela Universidade Regional Integrada do Alto Uruguai e das Missões - Campus Erechim. Trabalhei com projetos de Java, Web, Flutter,
                 C, Sistemas ERP, e desenvolvimento de jogos dentro das Instituições, além de projetos autorais. Possuo uma grande facilidade para aprender e me adaptar a novas tecnologias, além de entusiasmo para me dedicar, esforçar, aprender e ajudar
-                em novas aventuras.</t>
+                em novas aventuras.</p>
         </div>
 
     </section>
+<section>
+  <h1 class="myskills">Minhas Skills</h1>
+  <div class="skills">
 
-    <section>
+    <!-- FRONTEND -->
+    <div class="skill-category">
+      <h2 class="category-title">Frontend</h2>
+      <div class="skill">
+        <img src="assets/img/html5.png" alt="HTML5">
+        <div class="skill-info">
+          <div class="skill-name">HTML5</div>
+          <div class="level-bar"><div class="very-good"></div></div>
+        </div>
+      </div>
+      <div class="skill">
+        <img src="assets/img/css3.svg" alt="CSS3">
+        <div class="skill-info">
+          <div class="skill-name">CSS3</div>
+          <div class="level-bar"><div class="very-good"></div></div>
+        </div>
+      </div>
+      <div class="skill">
+        <img src="assets/img/js.png" alt="JavaScript">
+        <div class="skill-info">
+          <div class="skill-name">JavaScript</div>
+          <div class="level-bar"><div class="very-good"></div></div>
+        </div>
+      </div>
+      <div class="skill">
+        <img src="assets/img/ts.png" alt="TypeScript">
+        <div class="skill-info">
+          <div class="skill-name">TypeScript</div>
+          <div class="level-bar"><div class="ok"></div></div>
+        </div>
+      </div>
+    </div>
 
-        <body>
-            <h1 class="myskills">Minhas Skills</h2>
-                <div class="skills">
-                    <div class="skill-column">
-                        <div class="skill">
-                            <img src="assets\img\html5.png" alt="HTML5">
-                            <div class="skill-info">
-                                <div class="skill-name">HTML5</div>
-                                <div class="level-bar">
-                                    <div class="very-good"></div>
-                                </div>
-                            </div>
-                        </div>
+    <!-- BACKEND -->
+    <div class="skill-category">
+      <h2 class="category-title">Backend</h2>
+      <div class="skill">
+        <img src="assets/img/python.png" alt="Python">
+        <div class="skill-info">
+          <div class="skill-name">Python</div>
+          <div class="level-bar"><div class="very-good"></div></div>
+        </div>
+      </div>
+      <div class="skill">
+        <img src="assets/img/C.png" alt="C">
+        <div class="skill-info">
+          <div class="skill-name">C</div>
+          <div class="level-bar"><div class="very-good"></div></div>
+        </div>
+      </div>
+      <div class="skill">
+        <img src="assets/img/cplusplus.png" alt="C++">
+        <div class="skill-info">
+          <div class="skill-name">C++</div>
+          <div class="level-bar"><div class="very-good"></div></div>
+        </div>
+      </div>
+            <div class="skill">
+        <img src="assets/img/java.png" alt="Java">
+        <div class="skill-info">
+          <div class="skill-name">Java</div>
+          <div class="level-bar"><div class="ok"></div></div>
+        </div>
+      </div>
+    </div>
 
-                        <div class="skill">
-                            <img src="assets\img\css3.svg" alt="CSS3">
-                            <div class="skill-info">
-                                <div class="skill-name">CSS3</div>
-                                <div class="level-bar">
-                                    <div class="very-good"></div>
-                                </div>
-                            </div>
-                        </div>
+    <!-- FRAMEWORKS  -->
+    <div class="skill-category">
+      <h2 class="category-title">Frameworks</h2>
+      <div class="skill">
+        <img src="assets/img/node-js.png" alt="Node.js">
+        <div class="skill-info">
+          <div class="skill-name">Node.js</div>
+          <div class="level-bar"><div class="ok"></div></div>
+        </div>
+      </div>
+      <div class="skill">
+        <img src="assets/img/flask.png" alt="Flask">
+        <div class="skill-info">
+          <div class="skill-name">Flask</div>
+          <div class="level-bar"><div class="ok"></div></div>
+        </div>
+      </div>
+      <div class="skill">
+        <img src="assets/img/express-js.png" alt="Express">
+        <div class="skill-info">
+          <div class="skill-name">Express.js</div>
+          <div class="level-bar"><div class="ok"></div></div>
+        </div>
+      </div>
+    </div>
 
-                        <div class="skill">
-                            <img src="assets\img\js.png" alt="JavaScript">
-                            <div class="skill-info">
-                                <div class="skill-name">JavaScript</div>
-                                <div class="level-bar">
-                                    <div class="very-good"></div>
-                                </div>
-                            </div>
-                        </div>
+    <!-- DATABASE -->
+    <div class="skill-category">
+      <h2 class="category-title">Database</h2>
+      <div class="skill">
+        <img src="assets/img/mysql.png" alt="MySQL">
+        <div class="skill-info">
+          <div class="skill-name">MySQL</div>
+          <div class="level-bar"><div class="ok"></div></div>
+        </div>
+      </div>
+      <div class="skill">
+        <img src="assets/img/postgre.png" alt="PostgreSQL">
+        <div class="skill-info">
+          <div class="skill-name">PostgreSQL</div>
+          <div class="level-bar"><div class="ok"></div></div>
+        </div>
+      </div>
+    </div>
 
-                        <div class="skill">
-                            <img src="assets\img\node-js.png" alt="Node">
-                            <div class="skill-info">
-                                <div class="skill-name">Node.js</div>
-                                <div class="level-bar">
-                                    <div class="ok"></div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="skill">
-                            <img src="assets\img\ts.png" alt="ts">
-                            <div class="skill-info">
-                                <div class="skill-name">TypeScript</div>
-                                <div class="level-bar">
-                                    <div class="ok"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="skill">
-                            <img src="assets\img\docker.png" alt="Docker">
-                            <div class="skill-info">
-                                <div class="skill-name">Docker</div>
-                                <div class="level-bar">
-                                    <div class="ok"></div>
-                                </div>
-                            </div>
-                        </div>
+    <!-- TOOLS -->
+    <div class="skill-category">
+      <h2 class="category-title">Tools</h2>
+      <div class="skill">
+        <img src="assets/img/godot.png" alt="Godot">
+        <div class="skill-info">
+          <div class="skill-name">Godot</div>
+          <div class="level-bar"><div class="very-good"></div></div>
+        </div>
+      </div>
+      <div class="skill">
+        <img src="assets/img/git.png" alt="Git/GitHub">
+        <div class="skill-info">
+          <div class="skill-name">Git/GitHub</div>
+          <div class="level-bar"><div class="very-good"></div></div>
+        </div>
+      </div>
+      <div class="skill">
+        <img src="assets/img/docker.png" alt="Docker">
+        <div class="skill-info">
+          <div class="skill-name">Docker</div>
+          <div class="level-bar"><div class="ok"></div></div>
+        </div>
+      </div>
+      <div class="skill">
+        <img src="assets/img/linux.png" alt="Linux">
+        <div class="skill-info">
+          <div class="skill-name">Linux</div>
+          <div class="level-bar"><div class="ok"></div></div>
+        </div>
+      </div>
+    </div>
 
-                        <div class="skill">
-                            <img src="assets\img\python.png" alt="Python">
-                            <div class="skill-info">
-                                <div class="skill-name">Python</div>
-                                <div class="level-bar">
-                                    <div class="very-good"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="skill">
-                            <img src="assets\img\mysql.png" alt="MySQL">
-                            <div class="skill-info">
-                                <div class="skill-name">MySQL</div>
-                                <div class="level-bar">
-                                    <div class="ok"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="skill">
-                            <img src="assets\img\godot.png" alt="Godot">
-                            <div class="skill-info">
-                                <div class="skill-name">Godot</div>
-                                <div class="level-bar">
-                                    <div class="very-good"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="skill">
-                            <img src="assets\img\C.png" alt="C">
-                            <div class="skill-info">
-                                <div class="skill-name">C</div>
-                                <div class="level-bar">
-                                    <div class="very-good"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="skill">
-                            <img src="assets\img\git.png" alt="Git/Github">
-                            <div class="skill-info">
-                                <div class="skill-name">Git/Github</div>
-                                <div class="level-bar">
-                                    <div class="very-good"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="skill">
-                            <img src="assets\img\cplusplus.png" alt="C++">
-                            <div class="skill-info">
-                                <div class="skill-name">C++</div>
-                                <div class="level-bar">
-                                    <div class="ok"></div>
-                                </div>
-                            </div>
-                        </div>
-                        
-
-                </div>
-        </body>
-    </section>
+  </div>
+</section>
 
     <section>
 
@@ -240,30 +258,34 @@
         </body>
     </section>
 
+<body class="conquistas">
+
     <section>
-
-        <body class="conquistas">
-            <h1 id="titleConquistas">Conquistas</h1>
-            <div id="textConquistas">
-                <p id="textConquistas"> ➜ 9° Lugar na Maratona de Programação Seletiva da UFRSG 2024<br></p>
-                <p id="textConquistas"> ➜ 13° Lugar na Maratona Gaúcha de Programação 2024<br></p>
-            </div>
-
-        </body>
+        <h1 id="titleConquistas">Conquistas</h1>
+        <div id="textConquistas">
+            <p>➜ 9° Lugar na Maratona de Programação Seletiva da UFRGS 2024</p>
+            <p>➜ 13° Lugar na Maratona Gaúcha de Programação 2024</p>
+        </div>
     </section>
 
     <section class="wave-section">
-        <div class="wave"> <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M0,0V46.29c47.55,29.79,111.5,53.24,192,69.87C366.45,141.56,463.27,150,569.15,150S771.85,141.56,912,116.16c93.22-18.32,175.24-43.41,288-66.71V0Z" class="shape-fill"></path>
-        </svg></div>
+        <div class="wave">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V46.29c47.55,29.79,111.5,53.24,192,69.87C366.45,141.56,463.27,150,569.15,150S771.85,141.56,912,116.16c93.22-18.32,175.24-43.41,288-66.71V0Z" class="shape-fill"></path>
+            </svg>
+        </div>
         <div class="content">
-            <p class="text_made">Made with <img src="assets\img\html5_gray.png" class="made" alt="css3"> <img src="assets\img\css3_gray.png" class="made" alt="js"> <img src="assets\img\js_gray.png" class="made" alt="css3"></p>
+            <p class="text_made">Made with 
+                <img src="assets/img/html5_gray.png" class="made" alt="html5"> 
+                <img src="assets/img/css3_gray.png" class="made" alt="css3"> 
+                <img src="assets/img/js_gray.png" class="made" alt="js">
+            </p>
             <footer class="text_made">
                 <p>&copy; 2024 Lucas Blanger. Todos os direitos reservados.</p>
             </footer>
         </div>
     </section>
+
     <script src="script.js"></script>
 </body>
-
 </html>
